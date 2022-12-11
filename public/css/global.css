@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+@import url("https://fonts.googleapis.com/css?family=Inter:200,300,400,500,600,700,800,900");
 
 * {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700
+  font-family: "Inter", sans-serif;
 }
 
 body {
-    background: #02060E;
+  @apply bg-backdrop;
 }
